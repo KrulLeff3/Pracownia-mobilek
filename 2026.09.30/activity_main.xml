@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/tvTytul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#008577"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="Rejestruj konto"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:text="Podaj e-mail:"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:hint="Podaj e-mail"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:text="Podaj hasło:"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:hint="Podaj hasło"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPowtorzHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:text="Powtórz hasło:"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etPowtorzHaslo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:hint="Powtórz hasło"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnZatwierdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="ZATWIERDŹ"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvKomunikat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Witaj anna"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+</LinearLayout>
