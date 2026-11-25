@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Test1" parent="android:Theme" />
+    <style name="Theme.Test2" parent="android:Theme.Light" />
+    <style name="Theme.Test3" parent="android:Theme.Black" />
+    <style name="Theme.Test4" parent="android:Theme.NoTitleBar" />
+    <style name="Theme.Test5" parent="android:Theme.Light.NoTitleBar" />
+    <style name="Theme.Test6" parent="android:Theme.Black.NoTitleBar" />
+
+</resources>
